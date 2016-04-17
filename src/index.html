@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="animate.css">
+    <style>
+        html {
+            background-color: grey;
+        }
+        ul li.item {
+    		display: block;
+    		margin-bottom: 200px;
+    		height: 400px;
+    		width: 200px;
+    		background-color: red;
+    	}
+
+        .noAnimate {
+            opacity: 0;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+    	<li class="item item1 dummyRevial" data-reverse="true"></li>
+    	<li class="item item2 dummyRevial"></li>
+    	<li class="item item3 dummyRevial" data-offset="10"></li>
+    	<li class="item item4 dummyRevial"></li>
+    </ul>
+    <script src="dummy-reveal.js"></script>
+</body>
+</html>

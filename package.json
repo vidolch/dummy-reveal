@@ -1,0 +1,32 @@
+{
+  "name": "dummy-reveal",
+  "version": "0.0.1",
+  "description": "Simple scroll reveal sollution",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify": "0.0.9",
+    "gulp-sass": "^2.1.1",
+    "gulp-serve": "^1.2.0"
+  },
+  "scripts": {
+    "test": "gulp serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vidolch/dummy-reveal.git"
+  },
+  "keywords": [
+    "title"
+  ],
+  "author": "vidolch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vidolch/dummy-reveal/issues"
+  },
+  "homepage": "https://github.com/vidolch/dummy-reveale#readme"
+}
