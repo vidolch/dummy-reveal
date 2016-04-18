@@ -42,3 +42,4 @@ HTML:
   data-offset="0"
 ></div>
 ```
+## MIT © [Vidol Chalamov](https://twitter.com/vidol1ch)
