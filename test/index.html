@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="../src/animate.css">
     <style>
         html {
             background-color: grey;
@@ -28,6 +28,14 @@
     	<li class="item item3 dummyRevial" data-offset="10"></li>
     	<li class="item item4 dummyRevial"></li>
     </ul>
-    <script src="dummy-reveal.js"></script>
+    <script src="../src/dummy-reveal.js"></script>
+	<script>
+	var dr = new DummyReveal({
+		selector: 'dummyRevial',
+		globalDelay: 100,
+		classActive: 'fadeInLeft',
+		mobile: false
+	});
+	</script>
 </body>
 </html>
