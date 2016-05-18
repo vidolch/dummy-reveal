@@ -48,7 +48,8 @@
 	        globalDelay: 0,
 	        noAnimateClass: 'noAnimate',
 	        reverse: false,
-	        mobile: false
+	        mobile: false,
+			duration: undefined
 	    };
 	    this.elements = [];
 	    this._init(options);
@@ -119,9 +120,15 @@
 		this.activeClass 		= el.getAttribute('data-active-class') == undefined ? options.classActive : el.getAttribute('data-active-class');
 		this.delay 				= el.getAttribute('data-delay') == undefined ? options.globalDelay : el.getAttribute('data-delay');
 		this.reverse 			= el.getAttribute('data-reverse') == undefined ? options.reverse : true;
+		this.duration			= el.getAttribute('data-duration') == undefined ? options.duration : el.getAttribute('data-duration');
 
 		this.element.classList.add(this.defaultClass);
 	    this.element.classList.add(this.noAnimateClass);
+
+		if (typeof this.duration != 'undefined') {
+				console.log(this.duration);
+			this.element.style.animationDuration = this.duration + "ms";
+		}
 	}
 
 	Element.prototype.hasActive = function() {
