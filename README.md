@@ -26,7 +26,8 @@ var dr = new DummyReveal({
   globalDelay: 0,               // default, global delay for animations that will be added to all elements without data delay
   noAnimateClass: 'noAnimate',  // default, global noAnimateClass, for initial value before element is active 
   reverse: false,               // default, global reverse for animations that will be added to all elements without data reverse
-  mobile: false                 // default, global 
+  mobile: false,                // default, global 
+  duration: false               // default, global duration of all aniamtions
 });
 ```
 
@@ -40,6 +41,7 @@ HTML:
   data-no-animate-class="noAnimate"
   data-delay="0",
   data-offset="0"
+  data-duration="undefined"
 ></div>
 ```
 ## MIT © [Vidol Chalamov](https://twitter.com/vidol1ch)
