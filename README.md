@@ -2,6 +2,8 @@
 
 ## Usage:
 
+**this is bold **
+
 In you javascript file:
 
 ```javascript
